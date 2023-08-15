@@ -40,8 +40,8 @@ function agregarMetodo() {
    // Tu código:
 
    Persona.prototype.datos= function () {
-    // return `${this.nombre}, ${this.edad} años`;
-      return `${this.nombre}, ${this.edad} años`;
+     return `${this.nombre}, ${this.edad} años`;
+      
    }
 }
 
